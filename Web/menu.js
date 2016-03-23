@@ -28,7 +28,7 @@ for(var i=0;i<listeCourse.length;i++)
 
 }
 
-window.onclick = function(){
+document.getElementById("bottomCanvas").onclick = function(){
 
-	alert("test");
+	alert("Vous avez selectionné une course");
 }
