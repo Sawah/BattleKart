@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+#mainCanvas {
+    background-color: red;
+
+}
+
+#bottomCanvas {
+    position: fixed;
+    height: 100%;
+    width: 200px;
+    border: solid black 1px;
+    right: 0px;
+    bottom: 150px;
+    background-color: whitesmoke;
+}
+
+#westCanvas {
+    position: fixed;
+    height: 150px;
+    width: 100%;
+    border: solid black 1px;
+    bottom: 0px;
+    left: 0px;
+    background-color: papayawhip;
+}
