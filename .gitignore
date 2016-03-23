@@ -3,3 +3,6 @@
 *.project
 *.settings/
 */target/
+*/out/
+Android/local.properties
+Android/gen/

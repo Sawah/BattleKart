@@ -7,11 +7,6 @@ body {
     height: 0px;
 }
 
-#mainCanvas {
- /   background-color: red;
-    width: 100%;
-}
-
 #westCanvas {
     position: fixed;
     height: 100%;

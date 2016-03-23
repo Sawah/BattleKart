@@ -28,7 +28,11 @@ for(var i=0;i<listeCourse.length;i++)
 
 }
 
-window.onclick = function(){
+document.getElementById("bottomCanvas").onclick = function(){
 
-	alert("test");
+	alert("Vous avez selectionné une course");
+<<<<<<< HEAD
+=======
+	
+>>>>>>> 9226ecffcb7a4403e41c1f7a28f321d016d4da93
 }
