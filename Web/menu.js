@@ -31,4 +31,5 @@ for(var i=0;i<listeCourse.length;i++)
 document.getElementById("bottomCanvas").onclick = function(){
 
 	alert("Vous avez selectionné une course");
+	
 }
