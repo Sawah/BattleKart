@@ -1,19 +1,19 @@
+// Le canvas sur le quel on va dessiner
 var canvas;
+var temps = 0;
+var lecture = 1;
 
 function setup() {
     canvas = createCanvas(2000, 2000);
 }
 
 function draw() {
-    x = 0;
-    y = 0;
-
-    for (i = 0; i < 1200; i++) {
-        fill(200, 200, 200);
-        ellipse(x, y, 5, 5);
-        x++;
-        y++;
+    if (lecture === 1 && temps < 200) {
+        ellipse(temps, temps, 5, 5);
+        temps++;
     }
+}
 
-    ellipse(0, 0, 50, 50);
+function mousePressed() {
+    lecture = (lecture === 1) ? 0 : 1;
 }
