@@ -33,7 +33,6 @@ function draw() {
 	    	ellipse(tempsX, tempsY, 5, 5);
 	       	tempsX-=2;
     	}
-        
     }
 }
 
