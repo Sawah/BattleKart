@@ -7,12 +7,12 @@ body {
     height: 0px;
 }
 
-#westCanvas {
+#eastCanvas {
     position: fixed;
-    height: 100%;
     width: 200px;
     border: solid black 1px;
-    right: -5px;
+    right: -1px;
+    top: -1px;
     bottom: 150px;
     background-color: whitesmoke;
 }
@@ -26,4 +26,9 @@ body {
     left: 0px;
     right: 0px;
     background-color: papayawhip;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
 }

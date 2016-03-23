@@ -7,8 +7,12 @@
     <script src="p5.min.js"></script>
 </head>
 <body>
-<canvas id="bottomCanvas"></canvas>
-<canvas id="westCanvas"></canvas>
+<div id="bottomCanvas">
+</div>
+
+<div id="eastCanvas">
+    <?php include "playerList.php"; ?>
+</div>
 <script src="menu.js"></script>
 <script src="script.js"></script>
 </body>
