@@ -14,8 +14,8 @@ function setup() {
 }
 
 function draw() {
-    image(img, 0, 0, img.width, img.height)
     if (lecture === 1 && temps < 200) {
+        image(img, 0, 0, img.width, img.height)
         ellipse(temps, temps, 5, 5);
         temps++;
     }
