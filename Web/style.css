@@ -7,7 +7,7 @@ body {
     height: 0px;
 }
 
-#westCanvas {
+#eastCanvas {
     position: fixed;
     height: 100%;
     width: 200px;

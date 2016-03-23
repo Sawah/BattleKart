@@ -1,8 +1,10 @@
 // Le canvas sur lequel on va dessiner
 var canvas;
-var temps = 0;
+var tempsX = 300;
+var tempsY = 300;
 var lecture = 1;
 var img;
+var passe = false;
 
 function preload() {
     img = loadImage("circuit.png");
@@ -11,13 +13,27 @@ function preload() {
 
 function setup() {
     canvas = createCanvas(img.width, img.height);
+    image(img, 0, 0, img.width, img.height)
 }
 
 function draw() {
-    image(img, 0, 0, img.width, img.height)
-    if (lecture === 1 && temps < 200) {
-        ellipse(temps, temps, 5, 5);
-        temps++;
+    if (lecture === 1 ) {
+    	if(tempsX < 1700 && passe==false){
+        ellipse(tempsX, tempsY, 5, 5);
+        tempsX+=2;
+    	}
+    	else{
+    	passe=false;
+    	ellipse(tempsX, tempsY, 5, 5);
+        tempsY+=2;
+    	}
+
+    	if(tempsY >1700 && tempsY >400){
+    		passe=true;
+	    	ellipse(tempsX, tempsY, 5, 5);
+	       	tempsX-=2;
+    	}
+        
     }
 }
 
