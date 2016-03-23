@@ -1,15 +1,19 @@
+var canvas;
+
 function setup() {
-    canv = document.getElementById("mainCanvas");
-    canv.style.width = window.innerWidth - 200;
-    canv.style.height = window.innerHeight - 200;
+    canvas = createCanvas(2000, 2000);
 }
 
 function draw() {
     x = 0;
     y = 0;
 
-    for (i = 0; i < 50; i++) {
+    for (i = 0; i < 1200; i++) {
         fill(200, 200, 200);
-        ellipse();
+        ellipse(x, y, 5, 5);
+        x++;
+        y++;
     }
+
+    ellipse(0, 0, 50, 50);
 }

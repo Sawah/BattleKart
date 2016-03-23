@@ -2,27 +2,33 @@ body {
     margin: 0;
 }
 
-#mainCanvas {
-    background-color: red;
-    width: 100%;
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
 }
 
-#bottomCanvas {
-    position: fixed;
-    height: 100%;
-    width: 200px;
-    border: solid black 1px;
-    right: 0px;
-    bottom: 150px;
-    background-color: whitesmoke;
+#mainCanvas {
+ /   background-color: red;
+    width: 100%;
 }
 
 #westCanvas {
     position: fixed;
+    height: 100%;
+    width: 200px;
+    border: solid black 1px;
+    right: -5px;
+    bottom: 150px;
+    background-color: whitesmoke;
+}
+
+#bottomCanvas {
+    position: fixed;
     height: 150px;
     width: 100%;
     border: solid black 1px;
-    bottom: 0px;
+    bottom: -5px;
     left: 0px;
+    right: 0px;
     background-color: papayawhip;
 }
