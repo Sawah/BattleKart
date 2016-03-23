@@ -2,10 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbad7818-c437-450f-978b-dc41773c3a36" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Web/menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Web/playerList.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Web/index.html" afterPath="$PROJECT_DIR$/Web/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/style.css" afterPath="$PROJECT_DIR$/Web/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/battlekart_REST/target/battlekart_REST.war" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/battlekart_REST/target/battlekart_REST/WEB-INF/classes/fr/univ_lille/iut/MyResource.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/battlekart_REST/target/battlekart_REST/WEB-INF/lib/aopalliance-repackaged-2.4.0-b34.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/battlekart_REST/target/battlekart_REST/WEB-INF/lib/hk2-api-2.4.0-b34.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/battlekart_REST/target/battlekart_REST/WEB-INF/lib/hk2-locator-2.4.0-b34.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/battlekart_REST/target/battlekart_REST/WEB-INF/lib/hk2-utils-2.4.0-b34.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/battlekart_REST/target/battlekart_REST/WEB-INF/lib/javassist-3.18.1-GA.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/battlekart_REST/target/battlekart_REST/WEB-INF/lib/javax.annotation-api-1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/battlekart_REST/target/battlekart_REST/WEB-INF/lib/javax.inject-2.4.0-b34.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/battlekart_REST/target/battlekart_REST/WEB-INF/lib/javax.ws.rs-api-2.0.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/battlekart_REST/target/battlekart_REST/WEB-INF/lib/jersey-client-2.22.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/battlekart_REST/target/battlekart_REST/WEB-INF/lib/jersey-common-2.22.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/battlekart_REST/target/battlekart_REST/WEB-INF/lib/jersey-container-servlet-core-2.22.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/battlekart_REST/target/battlekart_REST/WEB-INF/lib/jersey-guava-2.22.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/battlekart_REST/target/battlekart_REST/WEB-INF/lib/jersey-media-jaxb-2.22.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/battlekart_REST/target/battlekart_REST/WEB-INF/lib/jersey-server-2.22.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/battlekart_REST/target/battlekart_REST/WEB-INF/lib/osgi-resource-locator-1.0.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/battlekart_REST/target/battlekart_REST/WEB-INF/lib/validation-api-1.1.0.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/battlekart_REST/target/classes/fr/univ_lille/iut/MyResource.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/battlekart_REST/src/main/java/fr/univ_lille/iut/Race.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/battlekart_REST/src/main/java/fr/univ_lille/iut/RaceRessource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/battlekart_REST/target/battlekart_REST/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/battlekart_REST/target/battlekart_REST/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rest/battlekart_REST/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Android/res/layout/course.xml" afterPath="$PROJECT_DIR$/Android/res/layout/course.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/index.php" afterPath="$PROJECT_DIR$/Web/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/menu.js" afterPath="$PROJECT_DIR$/Web/menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/script.js" afterPath="$PROJECT_DIR$/Web/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest/battlekart_REST/src/main/java/fr/univ_lille/iut/MyResource.java" afterPath="$PROJECT_DIR$/rest/battlekart_REST/src/main/java/fr/univ_lille/iut/MyResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/update.sh" afterPath="$PROJECT_DIR$/update.sh" />
     </list>
     <ignored path="ProjetBattleKart.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +58,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Web/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state vertical-scroll-proportion="-5.8846154">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -47,21 +75,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="playerList.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="playerList.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Web/playerList.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1276824">
+            <state vertical-scroll-proportion="-4.576923">
               <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Web/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6210856">
+              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -86,9 +114,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Web/menu.php" />
-        <option value="$PROJECT_DIR$/Web/index.php" />
         <option value="$PROJECT_DIR$/Web/style.css" />
         <option value="$PROJECT_DIR$/Web/playerList.php" />
+        <option value="$PROJECT_DIR$/Web/script.js" />
+        <option value="$PROJECT_DIR$/Web/index.php" />
       </list>
     </option>
   </component>
@@ -241,10 +270,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Web/script.js">
+    <entry file="file://$PROJECT_DIR$/Web/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-21.576923">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -257,26 +286,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.576923">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Web/playerList.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1276824">
+        <state vertical-scroll-proportion="-4.576923">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6210856">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
           <folding />
         </state>
       </provider>

@@ -7,7 +7,7 @@ var listeCourse = ["Course#1","Course#2","Course#3","Course#4","Course#5"];
 
 window.onload = function(){
 
-var westcanv = document.getElementById("westCanvas");
+var westcanv = document.getElementById("eastCanvas");
 var westctx = westcanv.getContext('2d');
 westctx.font = "20pt Algerian";
 westctx.fillStyle = "rgb(0,0,255)";
@@ -31,4 +31,5 @@ for(var i=0;i<listeCourse.length;i++)
 document.getElementById("bottomCanvas").onclick = function(){
 
 	alert("Vous avez selectionné une course");
+
 }

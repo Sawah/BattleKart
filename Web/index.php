@@ -13,6 +13,8 @@
 <div id="eastCanvas">
     <?php include "playerList.php"; ?>
 </div>
+<div id="bottomCanvas"></div>
+<div id="eastCanvas"></div>
 <script src="menu.js"></script>
 <script src="script.js"></script>
 </body>
