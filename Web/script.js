@@ -22,13 +22,13 @@ function draw() {
         ellipse(tempsX, tempsY, 5, 5);
         tempsX+=2;
     	}
-    	else{
+    	else if(tempsX >= 1700 && passe ==false){
     	passe=false;
     	ellipse(tempsX, tempsY, 5, 5);
         tempsY+=2;
     	}
 
-    	if(tempsY >1700 && tempsY >400){
+    	else if(tempsX >1700 && tempsY >400){
     		passe=true;
 	    	ellipse(tempsX, tempsY, 5, 5);
 	       	tempsX-=2;
