@@ -4,7 +4,7 @@ body {
 
 #mainCanvas {
     background-color: red;
-
+    width: 100%;
 }
 
 #bottomCanvas {
