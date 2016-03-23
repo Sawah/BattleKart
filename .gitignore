@@ -1,2 +1,4 @@
 */.idea/
-Android/out/
+*/out/
+Android/local.properties
+Android/gen/
