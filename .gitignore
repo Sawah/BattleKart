@@ -1,4 +1,8 @@
 */.idea/
+<<<<<<< HEAD
 */out/
 Android/local.properties
 Android/gen/
+=======
+Android/local.properties
+>>>>>>> 9226ecffcb7a4403e41c1f7a28f321d016d4da93
