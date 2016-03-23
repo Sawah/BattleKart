@@ -2,8 +2,12 @@ body {
     margin: 0;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+}
+
 #mainCanvas {
-    background-color: red;
+ /   background-color: red;
     width: 100%;
 }
 
